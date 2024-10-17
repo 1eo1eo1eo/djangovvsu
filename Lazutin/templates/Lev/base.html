@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1stLab</title>
+</head>
+{% block body %}
+<ul style="font-size:44px">
+    <li><a href="{% url "Lev:info" %}">Info</a></li>
+    <li><a href="{% url "Lev:group" %}">Group</a></li>
+    <li><a href="{% url "Lev:age" %}">Age</a></li>
+</ul>
+{% endblock body %}
+</html>
